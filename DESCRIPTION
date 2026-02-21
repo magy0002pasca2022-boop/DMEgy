@@ -1,0 +1,12 @@
+Package: DMEgy
+Type: Package
+Title: Pengolahan Skor Daya Matematis
+Version: 0.1.0
+Author: Magy
+Maintainer: Magy <magy@example.com>
+Description: Paket ini menyediakan aplikasi Shiny untuk mengolah data daya matematis
+Depends: R (>= 4.0.0)
+Imports: shiny, shinythemes, mirt, dplyr, openxlsx, tools
+License: MIT
+Encoding: UTF-8
+LazyData: true
