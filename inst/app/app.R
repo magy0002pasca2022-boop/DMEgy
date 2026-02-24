@@ -145,7 +145,7 @@ server <- function(input, output, session) {
       group_by(Kategori_Penilaian) %>%
       summarise(Jumlah_Responden = n(), .groups = "drop") %>%
       arrange(factor(Kategori_Penilaian,
-                     levels = c("Sangat Kurang","Kurang","Cukup","Baik","Sangat Baik"))) %>%
+                     levels = c("Sangat Rendah","Rendah","Sedang","Tinggi","Sangat Tinggi"))) %>%
       mutate(
         Persen = round((Jumlah_Responden / sum(Jumlah_Responden)) * 100, 1),
         Label = paste0(Persen, "%")
