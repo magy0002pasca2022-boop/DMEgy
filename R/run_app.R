@@ -1,5 +1,4 @@
 #' Jalankan Aplikasi Pengolahan Data IRT 2PL (Dikotomus)
-#'
 #' Membuka aplikasi Shiny untuk mengolah data respons 0/1 dengan model IRT 2PL.
 #' @export
 run_Dayamatematis_app <- function() {
